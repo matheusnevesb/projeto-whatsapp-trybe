@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: sans-serif;
 }
 
 body {
@@ -8,10 +9,9 @@ body {
     margin: 0 auto;
 }
 header, .cabecalho {
-    background-color:rgb(81 199 149);
+    background-color:#128C7E;
     color: white;
     font-weight: bold;
-    padding-bottom: 20px;
 }
 
 .upperTitle {
@@ -19,6 +19,19 @@ header, .cabecalho {
     justify-content:space-between;
     padding-bottom: 1rem;
     position: relative;
+    padding: 10px;
+}
+
+.tituloWhatsApp {
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.tituloWhatsApp2 {
+    font-size: 20px;
+    position: absolute;
+    left: 40px;
+    top: 10px;
 }
 
 .esconder {
@@ -27,22 +40,34 @@ header, .cabecalho {
 
 .listaMais {
     position: absolute;
-    background-color: black;
+    background-color: white;
     right: 0;
-    top: 20px;
+    top: 38px;
 }
 
 .listaMais ul {
     list-style: none;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 15px;
+    border: 1px solid gray;
 }
 
 .listaMais ul li {
     padding: 5px;
+    color: black;
+    font-weight: 200;
+    padding-left: 10px;
+    padding-right: 15px;
 }
 
+.listaMais ul li:first-child{
+    padding-top: 15px;
+}
+
+.listaMais ul li:last-child{
+    padding-bottom: 15px;
+}
 
 .bottomTitle ul {
     padding-left: 0;
@@ -52,11 +77,32 @@ header, .cabecalho {
     justify-content: flex-start;
 }
 
+.camera {
+    padding: 10px;
+}
+
+.cabecalho {
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.seta {
+    padding-top: 10px;
+}
+
 .bottomTitle ul li {
-    /* border: 1px solid red; */
     padding: 10px;
 }
 
 .bottomTitle ul .conversas {
     border-bottom: 4px solid white;
+}
+
+.box {
+    padding: 20px;
+    border: 1px solid gray;
+}
+
+.boxConteudo {
+    width: 70%;
 }
