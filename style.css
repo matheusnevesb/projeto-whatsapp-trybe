@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header {
+    background-color:rgb(81 199 149);
+    color: white;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.upperTitle {
+    display: flex;
+    justify-content:space-between;
+    padding-bottom: 1rem;
+}
+
+.esconder {
+    display: none;
+}
+
+.listaMais {
+    position: absolute;
+    background-color: black;
+    right: 0;
+    top: 20px;
+}
+
+.listaMais ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.listaMais ul li {
+    padding: 5px;
+}
+
+
+.bottomTitle ul {
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start;
+}
+
+.bottomTitle ul li {
+    /* border: 1px solid red; */
+    padding: 10px;
+}
+
+.bottomTitle ul .conversas {
+    border-bottom: 4px solid white;
+}
