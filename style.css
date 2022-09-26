@@ -199,3 +199,10 @@ header, .cabecalho {
   .slider.round:before {
     border-radius: 50%;
   }
+
+  .material-symbols-outlined{
+    cursor: pointer;
+  }
+  .listaMais ul li {
+    cursor: pointer;
+  }
