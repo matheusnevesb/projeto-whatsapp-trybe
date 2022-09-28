@@ -59,6 +59,11 @@ header, .cabecalho {
     font-weight: 200;
     padding-left: 10px;
     padding-right: 15px;
+    margin: 0;
+}
+.listaMais ul li:hover {
+    background-color: gray;
+    color: white;
 }
 
 .listaMais ul li:first-child{
@@ -144,14 +149,14 @@ header, .cabecalho {
     width: 60px;
     height: 34px;
   }
-  
+
   /* Hide default HTML checkbox */
   .switch input {
     opacity: 0;
     width: 0;
     height: 0;
   }
-  
+
   /* The slider */
   .slider {
     position: absolute;
@@ -164,7 +169,7 @@ header, .cabecalho {
     -webkit-transition: .4s;
     transition: .4s;
   }
-  
+
   .slider:before {
     position: absolute;
     content: "";
@@ -176,32 +181,37 @@ header, .cabecalho {
     -webkit-transition: .4s;
     transition: .4s;
   }
-  
+
   input:checked + .slider {
     background-color: #128C7E;
   }
-  
+
   input:focus + .slider {
     box-shadow: 0 0 1px #128C7E;
   }
-  
+
   input:checked + .slider:before {
     -webkit-transform: translateX(26px);
     -ms-transform: translateX(26px);
     transform: translateX(26px);
   }
-  
+
   /* Rounded sliders */
   .slider.round {
     border-radius: 34px;
   }
-  
+
   .slider.round:before {
     border-radius: 50%;
   }
 
   .material-symbols-outlined{
     cursor: pointer;
+    padding-bottom: 10px;
+    position:static ;
+  }
+  .material-symbols-outlined:hover {
+    background-color: #0d685d;
   }
   .listaMais ul li {
     cursor: pointer;
